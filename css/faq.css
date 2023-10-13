@@ -1,0 +1,57 @@
+.faq{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+input[type="email"]{
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 80%;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    resize: none;
+}
+
+input[type="submit"]{
+    width: 80%;
+    border: none;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: #0DC300;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.5;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width: 768px){
+    input[type="text"], input[type="email"], input[type="submit"], textarea{
+        width: 100%;
+    }
+}
